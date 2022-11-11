@@ -9,6 +9,8 @@ const PORT = 8080
 
 const app = express()
 app.use(express.json())
+res.send(<h2 style="color: purple">Java Home Docker App<h2>'):
+         }):
 
 app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', CORS_ORIGIN)
